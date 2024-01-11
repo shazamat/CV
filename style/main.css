@@ -1,0 +1,60 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+[class*=__container] {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  color: #000000;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.title h1, h3 {
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.list__icon {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.work {
+  margin-top: 35px;
+  line-height: 5px !important;
+}
+
+.company_list {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=main.css.map */
