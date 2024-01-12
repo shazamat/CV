@@ -6,14 +6,13 @@ $rubik: 'Rubik', sans-serif;
 
 // ==================== Core ==================== //
 
-body {
+* {
   font-family: $rubik;
   font-weight: 400;
   line-height: 25px;
 }
 
 [class*='__container'] {
-  max-width: 1296px;
   margin: 0 auto;
 
 }
@@ -34,8 +33,6 @@ a {
 // ==================== Main ==================== //
 
 body {
-  //color: #fff;
-  //background: #1B1B25;
   display: flex;
   justify-content: center;
 }
@@ -65,16 +62,20 @@ h2 {
 
 
 .work {
-  margin-top: 35px;
+  margin-top: 20px;
   line-height: 5px!important;
 }
 
 .company_list {
-  margin-top: 55px;
+  margin-top: 20px;
+  line-height: 5px!important;
   display: flex;
   justify-content: space-between;
 }
 
+.company_list p {
+  margin: 0;
+}
 
 
 
